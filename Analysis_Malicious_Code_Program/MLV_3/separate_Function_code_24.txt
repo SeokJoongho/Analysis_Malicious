@@ -1,0 +1,105 @@
+Function_24(){
+	if(g_var_20 == 0) {
+	     goto 00002274;
+	}else{
+	}
+0000221F:
+	switch(){
+	case 1 :
+	     goto 0000C25D;
+	}
+	g_var_UNKNOWN = 0;
+	switch(){
+	case 1 :
+	     goto 000081E9;
+	}
+	var_8 = 1;
+	goto 0000A2D6;
+	g_var_UNKNOWN = 0;
+	goto 00003B82;
+	g_var_UNKNOWN = 0;
+	goto 00005690;
+	var_8 = g_var_UNKNOWN;
+	goto 00004F55;
+	g_var_UNKNOWN = 0;
+	goto 00005012;
+	var_16 = g_var_UNKNOWN;
+	goto 000054E7;
+	if(var_4 != EAX) {
+	     goto 00005511;
+	}else{
+	     goto 00005514;
+	     g_var_UNKNOWN = 0;
+	     goto 000042C2;
+	     var_4 = g_var_UNKNOWN;
+	     goto 00008DC8;
+	}
+00002274:
+	g_var_UNKNOWN = 0;
+	goto 0000221F;
+	var_4 = g_var_UNKNOWN;
+	goto 0000C9FF;
+	if(var_8 != EBX) {
+	     goto 0000D3F7;
+	}else{
+	     goto 0000D402;
+	     if(g_var_51 == 0) {
+	          goto 0000229E;
+	     }else{
+	          if(var_12 == EAX) {
+	               goto 00050DE3;
+	          }else{
+	          }
+0000229E:
+	          DWORD PTR DS:[1001574] ()()
+	          goto 00001ACD;
+	          switch(){
+	          case 1 :
+	               goto 00009090;
+	          case 2 :
+	               goto 000000C0;
+	          }
+	          goto 0000ллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллллл;
+	          UNKNOWN OPERATION3(MOVS)
+	          UNKNOWN OPERATION3(MOVS)
+	          UNKNOWN OPERATION3(MOVS)
+	          UNKNOWN OPERATION3(MOVS)
+	          goto 000019B2;
+	          var_88 = var_120;
+	          goto 00001864;
+	          var_120 = 0;
+	          goto 000036CE;
+	          switch(){
+	          case 1 :
+	               goto 00000204;
+	          case 2 :
+	               goto 000000C0;
+	          }
+	          g_var_18433 = var_120;
+	          UNKNOWN OPERATION1(UNKNOWN)
+	          UNKNOWN OPERATION1(UNKNOWN)
+	          UNKNOWN OPERATION1(UNKNOWN)
+	          UNKNOWN OPERATION3(STOS)
+	          UNKNOWN OPERATION1(UNKNOWN)
+	          UNKNOWN OPERATION1(UNKNOWN)
+	          if(var_120 == 1086411379) {
+	               goto 000022E9;
+	          }else{
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION3(STOS)
+	               UNKNOWN OPERATION3(PUSHAD)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION3(STOS)
+	               var_120++;
+	               UNKNOWN OPERATION1(UNKNOWN)
+	          }
+	     }
+	}
+	return
+}

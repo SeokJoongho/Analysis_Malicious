@@ -1,0 +1,145 @@
+Function_7(){
+	UNKNOWN OPERATION1(UNKNOWN)
+	var_4 = ;
+	var_140 = arg_16;
+	var_136 = arg_20;
+	UNKNOWN OPERATION1(UNKNOWN)
+	switch(){
+	case 1 :
+	     goto 00000AF8;
+	}
+	arg_8 = 0;
+	var_72 = arg_8;
+	var_88 = arg_8;
+	var_148 = arg_8;
+	UNKNOWN OPERATION1(UNKNOWN)
+	UNKNOWN OPERATION1(UNKNOWN)
+	UNKNOWN OPERATION1(UNKNOWN)
+	UNKNOWN OPERATION1(UNKNOWN)
+	UNKNOWN OPERATION1(UNKNOWN)
+	UNKNOWN OPERATION1(UNKNOWN)
+	switch(){
+	case 1 :
+	     goto 0000F7E8;
+	}
+	if(var_148 == 0) {
+	     goto 00001864;
+	}else{
+	     UNKNOWN OPERATION1(UNKNOWN)
+	     switch(){
+	     case 1 :
+	          goto 00000D04;
+	     }
+	     if(var_148 != ESI) {
+	          goto 00009186;
+	     }else{
+	          var_84 = var_140;
+	          var_80 = var_136;
+	          if(arg_12 <= 36) {
+	               goto 00001869;
+	          }else{
+	               switch(){
+	               case 1 :
+	                    goto 0000E6BA;
+	               }
+	               if(arg_12 > var_136) {
+	                    goto 00009158;
+	               }else{
+	                    if( == ) {
+	                         goto 000097E0;
+	                    }else{
+	                         switch(){
+	                         case 1 :
+	                              goto 000012BA;
+	                         }
+	                         if(arg_12 > var_136) {
+	                              goto 0000192F;
+	                         }else{
+	                              if( == ) {
+	                                   goto 000095FF;
+	                              }else{
+	                                   switch(){
+	                                   case 1 :
+	                                        goto 000085BA;
+	                                   }
+	                                   if(arg_12 > var_136) {
+	                                        goto 0000D1B4;
+	                                   }else{
+	                                        if( == ) {
+	                                             goto 00010393;
+	                                        }else{
+	                                             if(arg_12 > 78) {
+	                                                  goto 000341D1;
+	                                             }else{
+	                                                  if( == ) {
+	                                                       goto 0000DC5C;
+	                                                  }else{
+	                                                       if(arg_12 < 43) {
+	                                                            goto 000017D4;
+	                                                       }else{
+	                                                            if(arg_12 <= 44) {
+	                                                                 goto 0004E1DE;
+	                                                            }else{
+	                                                                 if(arg_12 == 70) {
+	                                                                      goto 0000D0D0;
+	                                                                 }else{
+	                                                                      if(arg_12 == 71) {
+	                                                                           goto 0003385B;
+	                                                                      }else{
+	                                                                           if(arg_12 == 72) {
+	                                                                                goto 00050CFC;
+	                                                                           }else{
+	                                                                                if(arg_12 == 74) {
+	                                                                                     goto 0001070B;
+	                                                                                }else{
+	                                                                                }
+000017D4:
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                switch(){
+	                                                                                case 1 :
+	                                                                                     goto 00000D54;
+	                                                                                }
+	                                                                                if( == ) {
+	                                                                                     goto 000091B0;
+	                                                                                }else{
+	                                                                                     UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                     switch(){
+	                                                                                     case 1 :
+	                                                                                          goto 00000DF4;
+	                                                                                     }
+	                                                                                     if( == ) {
+	                                                                                          goto 000099DC;
+	                                                                                     }else{
+	                                                                                          UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                          switch(){
+	                                                                                          case 1 :
+	                                                                                               goto 00000DF8;
+	                                                                                          }
+	                                                                                          if( == ) {
+	                                                                                               goto 000099F6;
+	                                                                                          }else{
+	                                                                                               DWORD PTR DS:[1001574] ()()
+	                                                                                               UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                               Function5:000015EB ()
+	                                                                                               return
+	                                                                                          }
+	                                                                                     }
+	                                                                                }
+	                                                                           }
+	                                                                      }
+	                                                                 }
+	                                                            }
+	                                                       }
+	                                                  }
+	                                             }
+	                                        }
+	                                   }
+	                              }
+	                         }
+	                    }
+	               }
+	          }
+	     }
+	}
+	return
+}

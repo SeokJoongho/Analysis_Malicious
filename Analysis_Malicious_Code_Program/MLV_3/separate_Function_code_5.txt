@@ -1,0 +1,38 @@
+Function_5(){
+	switch(){
+	case 1 :
+	     goto 0000013D;
+	}
+	if( == ) {
+	     goto 0003645C;
+	}else{
+	     switch(){
+	     case 1 :
+	          goto 0000043D;
+	     }
+	     if( == ) {
+	          goto 0003645C;
+	     }else{
+	          UNKNOWN OPERATION1(UNKNOWN)
+	          switch(){
+	          case 1 :
+	               goto 00000094;
+	          }
+	          if( != ) {
+	               goto 0003AFD2;
+	          }else{
+	               g_var_4 = 0;
+	               switch(){
+	               case 1 :
+	                    goto 0000C2C9;
+	               }
+	               if(ECX, != g_var_4240) {
+	                    goto 0007AC0F;
+	               }else{
+	                    return
+	               }
+	          }
+	     }
+	}
+	return
+}

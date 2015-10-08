@@ -1,0 +1,11 @@
+00000230	8BYTE	2E 64 61 74	NAME				.data
+00000234		61 00 00 00	
+00000238	DWORD	000000FC	VirtualSize			Actual size of data in section
+0000023C	DWORD	000000FC	VirtualAddress			RVA where section begins in memory
+00000240	DWORD	00001000	SizeOfRawData			Size of data on disk
+00000244	DWORD	00003000	PointerToRawData		Raw offset of section on disk
+00000248	DWORD	00000000	PointerToRelocations		Start of relocation entries for section, zero if none
+0000024C	DWORD	00000000	PointerToLinenumbers		Start of lin-no. entries for section, zero if none
+00000250	WORD	0000		NumberOfRelocations		This value is zero for excutable images
+00000252	WORD	0000		NumberOfLinenumbers		Number of line-number entries for section
+00000254	DWORD	C0000040	Characteristics			Section Characteristics

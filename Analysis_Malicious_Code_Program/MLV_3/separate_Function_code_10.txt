@@ -1,0 +1,171 @@
+Function_10(){
+	g_var_96 = 0;
+	UNKNOWN OPERATION1(UNKNOWN)
+	switch(){
+	case 1 :
+	     goto 0000029C;
+	}
+	if( == ) {
+	     goto 00029BA2;
+	}else{
+	     UNKNOWN OPERATION1(UNKNOWN)
+	     switch(){
+	     case 1 :
+	          goto 000002AC;
+	     }
+	     if( == ) {
+	          goto 00029BA2;
+	     }else{
+	          UNKNOWN OPERATION1(UNKNOWN)
+	          switch(){
+	          case 1 :
+	               goto 000002BC;
+	          }
+	          if( == ) {
+	               goto 00029BA2;
+	          }else{
+	               if(g_var_10B110C == 1) {
+	                    goto 0002D31F;
+	               }else{
+	                    switch(){
+	                    case 1 :
+	                         goto 000018B8;
+	                    }
+	                    if(arg_12 > var_88) {
+	                         goto 0000D075;
+	                    }else{
+	                         if( == ) {
+	                              goto 00034C64;
+	                         }else{
+	                              if(arg_12 > +72) {
+	                                   goto 00010118;
+	                              }else{
+	                                   if( == ) {
+	                                        goto 000101C3;
+	                                   }else{
+	                                        if(arg_12 <= +15) {
+	                                             goto 00010322;
+	                                        }else{
+	                                             if(arg_12 != +20) {
+	                                                  goto 000103AA;
+	                                             }else{
+	                                                  UNKNOWN OPERATION1(UNKNOWN)
+	                                                  switch(){
+	                                                  case 1 :
+	                                                       goto 0000034C;
+	                                                  }
+	                                                  if( == ) {
+	                                                       goto 0005A89B;
+	                                                  }else{
+	                                                       var_88 = 0;
+	                                                       var_88++;
+	                                                       return
+	                                                       switch(){
+	                                                       case 1 :
+	                                                            goto 0000A0BA;
+	                                                       }
+	                                                       if(0 <= -20) {
+	                                                            goto 0000CFDD;
+	                                                       }else{
+	                                                            switch(){
+	                                                            case 1 :
+	                                                                 goto 00001EBA;
+	                                                            }
+	                                                            if(0 > -20) {
+	                                                                 goto 0000D2C4;
+	                                                            }else{
+	                                                                 if( == ) {
+	                                                                      goto 000506DC;
+	                                                                 }else{
+	                                                                      UNKNOWN OPERATION1(UNKNOWN)
+	                                                                      switch(){
+	                                                                      case 1 :
+	                                                                           goto 000002A2;
+	                                                                      }
+	                                                                      if( == ) {
+	                                                                           goto 0004E201;
+	                                                                      }else{
+	                                                                           if( == ) {
+	                                                                                goto 000510D3;
+	                                                                           }else{
+	                                                                                if( == ) {
+	                                                                                     goto 0003EF39;
+	                                                                                }else{
+	                                                                                     if( != ) {
+	                                                                                          goto 00009718;
+	                                                                                     }else{
+	                                                                                          var_76 = g_var_96;
+	                                                                                          if(g_var_96 == ESI) {
+	                                                                                               goto 00010357;
+	                                                                                          }else{
+	                                                                                               DWORD PTR DS:[10015D4] ()()
+	                                                                                               UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                               switch(){
+	                                                                                               case 1 :
+	                                                                                                    goto 00000D14;
+	                                                                                               }
+	                                                                                               if( == ) {
+	                                                                                                    goto 0000972C;
+	                                                                                               }else{
+	                                                                                                    DWORD PTR DS:[1001380] ()()
+	                                                                                                    if(var_120 == 1) {
+	                                                                                                         goto 000022D2;
+	                                                                                                    }else{
+	                                                                                                         DWORD PTR DS:[1001C40] ()()
+	                                                                                                         if(var_120 == 0) {
+	                                                                                                              goto 000019CA;
+	                                                                                                         }else{
+	                                                                                                              DWORD PTR DS:[10018A0] ()()
+	                                                                                                         }
+000019CA:
+	                                                                                                         UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                                         switch(){
+	                                                                                                         case 1 :
+	                                                                                                              goto 00000CD8;
+	                                                                                                         }
+	                                                                                                         Function28:00034A7D (arg_12, var_104, var_120)
+	                                                                                                         UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                                         switch(){
+	                                                                                                         case 1 :
+	                                                                                                              goto 00000D14;
+	                                                                                                         }
+	                                                                                                         DWORD PTR DS:[1001C58] ()()
+	                                                                                                         UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                                         var_104++;
+	                                                                                                         DWORD PTR SS:[EBP+10], ESI
+	                                                                                                         Function28:00034AAF (var_76)
+	                                                                                                         if(var_84 != ESI) {
+	                                                                                                              goto 00001864;
+	                                                                                                         }else{
+	                                                                                                              DWORD PTR DS:[10015A8] ()()
+	                                                                                                              goto 00001864;
+	                                                                                                              UNKNOWN OPERATION3(AND)
+	                                                                                                              UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                                              UNKNOWN OPERATION3(AND)
+	                                                                                                              UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                                              UNKNOWN OPERATION3(AND)
+	                                                                                                              UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                                         }
+	                                                                                                    }
+	                                                                                               }
+	                                                                                          }
+	                                                                                     }
+	                                                                                }
+	                                                                           }
+	                                                                      }
+	                                                                 }
+	                                                            }
+	                                                       }
+	                                                  }
+	                                             }
+	                                        }
+	                                   }
+	                              }
+	                         }
+	                    }
+	               }
+	          }
+	     }
+	}
+	return
+}

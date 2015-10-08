@@ -1,0 +1,12 @@
+Function_11(){
+	DWORD PTR DS:[1001138] ()()
+	if(g_var_92 == 0) {
+	     goto 000634A6;
+	}else{
+	     switch(){
+	     case 1 :
+	          goto 0000C25D;
+	     }
+	}
+	return
+}

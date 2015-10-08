@@ -1,0 +1,301 @@
+Function_13(){
+	UNKNOWN OPERATION1(UNKNOWN)
+	var_4 = ;
+	var_72 = arg_8;
+	switch(){
+	case 1 :
+	     goto 00003CB9;
+	}
+	if(arg_12 <= 0) {
+	     goto 00001AE2;
+	}else{
+	     arg_12 = arg_12 + -1085;
+	     if(arg_12 <= 30) {
+	          goto 00008295;
+	     }else{
+	     }
+00001AB0:
+	     if(g_var_40 == 0) {
+	          goto 0000228E;
+	     }else{
+	          if(var_12 != EAX) {
+	               goto 0000228E;
+	          }else{
+	               Function28:00002E40 (arg_16, arg_20)
+	          }
+00001ACD:
+	          UNKNOWN OPERATION1(UNKNOWN)
+	          Function5:000015EB ()
+	          return
+	     }
+	}
+00001ADE:
+	g_var_40 = 0;
+	goto 00001ACD;
+00001AE2:
+	if( == ) {
+	     goto 000080B2;
+	}else{
+	     switch(){
+	     case 1 :
+	          goto 000014B9;
+	     }
+	     if(g_var_40 > var_4) {
+	          goto 00033F83;
+	     }else{
+	          if( == ) {
+	               goto 00008022;
+	          }else{
+	               if(g_var_40 <= 71) {
+	                    goto 000101D6;
+	               }else{
+	                    g_var_40 = g_var_40 - 4;
+	                    if( == ) {
+	                         goto 0002DFC5;
+	                    }else{
+	                         g_var_40 = g_var_40 - 4;
+	                         if( == ) {
+	                              goto 00001ADE;
+	                         }else{
+	                              g_var_40 = g_var_40 - 2;
+	                              if( == ) {
+	                                   goto 00007FD3;
+	                              }else{
+	                                   g_var_40 = g_var_40 - 6;
+	                                   if( == ) {
+	                                        goto 0002A224;
+	                                   }else{
+	                                        g_var_40--;
+	                                        if(g_var_40 == 0) {
+	                                             goto 00007FC1;
+	                                        }else{
+	                                             g_var_40--;
+	                                             g_var_40--;
+	                                             if(g_var_40 == 0) {
+	                                                  goto 000440B8;
+	                                             }else{
+	                                                  switch(){
+	                                                  case 1 :
+	                                                       goto 00008F2D;
+	                                                  }
+	                                                  if( != ) {
+	                                                       goto 00001AB0;
+	                                                  }else{
+	                                                       if(0 < 5) {
+	                                                            goto 00001ADE;
+	                                                       }else{
+	                                                            if(0 > 9) {
+	                                                                 goto 00007AE0;
+	                                                            }else{
+	                                                                 switch(){
+	                                                                 case 1 :
+	                                                                      goto 000021E8;
+	                                                                 }
+	                                                                 DWORD PTR DS:[EAX+12]()
+	                                                                 if(g_var_40 != 0) {
+	                                                                      goto 0005253D;
+	                                                                 }else{
+	                                                                      DWORD PTR DS:[1001514] ()()
+	                                                                      if(g_var_40 != 0) {
+	                                                                           goto 00001ADE;
+	                                                                      }else{
+	                                                                           if(0 >= 9) {
+	                                                                                goto 00001ADE;
+	                                                                           }else{
+	                                                                                switch(){
+	                                                                                case 1 :
+	                                                                                     goto 0000E868;
+	                                                                                }
+	                                                                                DWORD PTR DS:[1001518] ()()
+	                                                                                goto 00001ADE;
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                goto 00001BAF;
+	                                                                           }
+00001BAF:
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           if(g_var_UNKNOWN <= 9) {
+	                                                                                goto 00001BB3;
+	                                                                           }else{
+	                                                                           }
+00001BB3:
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           g_var_UNKNOWN = g_var_UNKNOWN - 908656896;
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           g_var_UNKNOWN = g_var_UNKNOWN + 1;
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           g_var_UNKNOWN = g_var_UNKNOWN - -1526658650;
+	                                                                           UNKNOWN OPERATION3(MOVS)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           DWORD PTR SS:[EBP+39], ECX
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION3(AND)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           Function28:7FFFFFFF ()
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           if(-119 <= 0) {
+	                                                                                goto 00001C60;
+	                                                                           }else{
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION3(PUSHAD)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION3(MOVS)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                DWORD PTR SS:[EBP-109], ESI
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                g_var_40++;
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                g_var_UNKNOWN++;
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                g_var_UNKNOWN++;
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                g_var_UNKNOWN--;
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION3(XOR)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION3(XOR)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION3(MOVS)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION3(AND)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                g_var_-119 = g_var_UNKNOWN;
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                                UNKNOWN OPERATION3(AND)
+	                                                                                UNKNOWN OPERATION1(UNKNOWN)
+	                                                                           }
+	                                                                      }
+	                                                                 }
+	                                                            }
+	                                                       }
+	                                                  }
+	                                             }
+	                                        }
+	                                   }
+	                              }
+	                         }
+	                    }
+	               }
+	          }
+	     }
+	}
+	return
+}

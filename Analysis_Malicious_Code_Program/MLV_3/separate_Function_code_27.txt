@@ -1,0 +1,20 @@
+Function_27(){
+	g_var_4 = g_var_4 + 24;
+	g_var_4 = 0;
+	g_var_4++;
+	if(g_var_UNKNOWN == 0) {
+	     goto 00002223;
+	}else{
+	     UNKNOWN OPERATION1(UNKNOWN)
+	     UNKNOWN OPERATION1(UNKNOWN)
+	     switch(){
+	     case 1 :
+	          goto 00003A8C;
+	     }
+	     switch(){
+	     case 1 :
+	          goto 0000C25D;
+	     }
+	}
+	return
+}

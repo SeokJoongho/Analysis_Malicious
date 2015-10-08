@@ -1,0 +1,23 @@
+﻿빌드 시작: 2015-10-04 오전 4:45:57
+     1>2 노드의 "C:\Users\eternal\Desktop\최종산출물(Team-MLV_석중호)\최종산출물(Team-MLV_석중호)\MLV_3\MLV_3.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "Debug\MLV_3.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         모든 출력이 최신 상태입니다.
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\eternal\Desktop\최종산출물(Team-MLV_석중호)\최종산출물(Team-MLV_석중호)\Debug\MLV_3.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\usr\lib "bson-1.0.lib" "bson-static-1.0.lib" "mongoc-1.0.lib" "mongoc-static-1.0.lib" "bson-1.0.lib" "bson-static-1.0.lib" "mongoc-1.0.lib" "mongoc-static-1.0.lib" /MANIFEST /ManifestFile:"Debug\MLV_3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\eternal\Desktop\최종산출물(Team-MLV_석중호)\최종산출물(Team-MLV_석중호)\Debug\MLV_3.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\eternal\Desktop\최종산출물(Team-MLV_석중호)\최종산출물(Team-MLV_석중호)\Debug\MLV_3.lib" /MACHINE:X86 Debug\MLV_3.res
+         Debug\analysis.obj
+         Debug\convert.obj
+         Debug\convertDialog.obj
+         Debug\MLV_3.obj
+         Debug\MLV_3Dlg.obj
+         Debug\stdafx.obj
+     1>LINK : fatal error LNK1123: COFF로 변환하는 동안 오류가 발생했습니다. 파일이 잘못되었거나 손상되었습니다.
+     1>"C:\Users\eternal\Desktop\최종산출물(Team-MLV_석중호)\최종산출물(Team-MLV_석중호)\MLV_3\MLV_3.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.13

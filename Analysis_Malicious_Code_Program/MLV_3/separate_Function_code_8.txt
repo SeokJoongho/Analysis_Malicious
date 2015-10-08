@@ -1,0 +1,19 @@
+Function_8(){
+	if(g_var_UNKNOWN == 0) {
+	     goto 0000183C;
+	}else{
+	     DWORD PTR DS:[ECX+16]()
+	     if(g_var_UNKNOWN == 0) {
+	          goto 0000183F;
+	     }else{
+	     }
+0000183C:
+	     g_var_UNKNOWN = 0;
+	     g_var_UNKNOWN++;
+	}
+0000183F:
+	switch(){
+	case 1 :
+	     goto 0000C25D;
+	}
+}

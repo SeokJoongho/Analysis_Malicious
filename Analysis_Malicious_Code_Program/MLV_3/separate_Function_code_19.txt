@@ -1,0 +1,12 @@
+Function_19(){
+	if(g_var_8868 == -1) {
+	     goto 00029EA2;
+	}else{
+	     if(u == 0) {
+	          goto 0005C2C9;
+	     }else{
+	          goto EAX;
+	     }
+	}
+	return
+}

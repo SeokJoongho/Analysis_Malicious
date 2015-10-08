@@ -1,0 +1,43 @@
+
+
+				- M.L.V 사용법 -
+
+
+
+<프로그램 설정 방법>
+
+* 64 bit 사용자 프로그램 설정 방법
+
+1. 압축파일에서 64_bit_usr.zip을 C 드라이버에서 압축을 해제 합니다.
+
+2. C:\usr\bin에 있는 4개의 dll을 MLV 프로젝트 MLV 파일에 넣어 줍니다.
+
+
+
+* 32 bit 사용자 프로그램 설정 방법
+
+1. 압축파일에서 32_bit_usr.zip을 C 드라이버에서 압축을 해제 합니다.
+
+2. C:\usr\bin에 있는 4개의 dll을 MLV 프로젝트 MLV 파일에 넣어 줍니다.
+
+
+
+<프로그램 실행 방법>
+
+1. 위의 설정을 마친 후,
+
+2. 프로젝트 압축 해제 후, 솔루션(*.sln)을 더블 클릭하면 됩니다.
+
+3. 악성코드 분석을 위해 다음 사이트에서 악성코드 예제를 받은 후, 분석 하시기 바랍니다.
+
+   사이트 : http://sourceforge.net/projects/pmalabs/ 
+		또는
+            http://sourceforge.net/projects/pmalabs/files/latest/download
+
+
+
+<주의 사항>
+
+* Visual studio 2010이 설치 되어있어야 합니다.
+
+* ServicePack1 이 반드시 설치 되어있어야 합니다.

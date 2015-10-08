@@ -1,0 +1,13 @@
+Function_23(){
+	if(g_var_0 == 0) {
+	     goto 00002205;
+	}else{
+	     g_var_0 = g_var_0 & 0;
+	     DWORD PTR DS:[ECX+8]()
+	}
+00002205:
+	switch(){
+	case 1 :
+	     goto 0000C25D;
+	}
+}

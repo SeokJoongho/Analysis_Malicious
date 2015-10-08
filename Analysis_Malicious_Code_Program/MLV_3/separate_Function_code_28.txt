@@ -1,0 +1,6 @@
+Function_28(){
+	Function17:00001DF3 (var_8, 1002DDC, var_12, var_16)
+	return
+	UNKNOWN OPERATION1(UNKNOWN)
+	UNKNOWN OPERATION1(UNKNOWN)
+}

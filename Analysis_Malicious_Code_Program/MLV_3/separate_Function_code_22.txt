@@ -1,0 +1,14 @@
+Function_22(){
+	switch(){
+	case 1 :
+	     goto 00007D83;
+	}
+	if( == ) {
+	     goto 000021E7;
+	}else{
+	     DWORD PTR DS:[1001254] ()()
+	     DWORD PTR DS:[100124C] ()()
+	}
+000021E7:
+	return
+}

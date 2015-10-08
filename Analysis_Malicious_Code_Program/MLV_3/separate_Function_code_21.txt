@@ -1,0 +1,6 @@
+Function_21(){
+	switch(){
+	case 1 :
+	     goto 0000C25D;
+	}
+}

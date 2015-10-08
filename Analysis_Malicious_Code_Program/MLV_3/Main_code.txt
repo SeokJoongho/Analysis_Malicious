@@ -1,0 +1,42 @@
+void main(){
+	FS:[0] = ;
+	var_24 = -32;
+	var_4 = var_4 & 0;
+	msvcrt.dll:__set_app_type(1);
+	g_var_4030F0 = g_var_4030F0 | FFFFFFFF;
+	g_var_4030F4 = g_var_4030F4 | FFFFFFFF;
+	msvcrt.dll:__p__fmode()
+	g_var_ret_value = g_var_12524;
+	msvcrt.dll:__p__commode()
+	g_var_ret_value = g_var_12520;
+	g_var_12536 = g_var_MSVCRT.dll:_adjust_fdiv;
+	Function1:00001951 ()
+	if(g_var_12504 != 0) {
+	     goto 000018A3;
+	}else{
+	     msvcrt.dll:__setusermatherr(40194E);
+	}
+000018A3:
+	Function1:0000193C ()
+	Function1:00001936 (3008, 300C)
+	var_40 = g_var_12516;
+	msvcrt.dll:__getmainargs(0, 0, 0, g_var_12512, 0);
+	Function1:00001936 (3000, 3004)
+	msvcrt.dll:__p___initenv()
+	g_var_ret_value = var_32;
+	UNKNOWN OPERATION3(CALL)
+	var_36 = ret_value;
+	msvcrt.dll:exit(ret_value);
+	var_48 = g_var_UNKNOWN;
+	Function1:00001930 (g_var_UNKNOWN, var_20)
+	return
+	msvcrt.dll:_exit(var_48);
+	msvcrt.dll:_XcptFilter(0, 0);
+	msvcrt.dll:_initterm()
+	Function1:00001966 ()
+	return
+	return
+	return
+	msvcrt.dll:_except_handler3(FS:[0], 401960, 402070, FFFFFFFF);
+	msvcrt.dll:_controlfp(, 0);
+}

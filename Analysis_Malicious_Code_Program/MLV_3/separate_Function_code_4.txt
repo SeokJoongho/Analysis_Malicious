@@ -1,0 +1,110 @@
+Function_4(){
+	Function4:000015A0 ()
+	int var_276 = 0
+	char var_272 = 0;
+	UNKNOWN OPERATION3(STOS)
+	char var_548 = 0;
+	var_271 = 0;
+	UNKNOWN OPERATION3(STOS)
+	int var_4660 = 0
+	int var_4652 = 0
+	kernel32.dll:LoadLibraryA(psapi.dll));
+	kernel32.dll:GetProcAddress(ret_value, EnumProcessModules));
+	g_var_12588 = ret_value;
+	kernel32.dll:LoadLibraryA(psapi.dll));
+	kernel32.dll:GetProcAddress(ret_value, GetModuleBaseNameA));
+	g_var_12584 = ret_value;
+	kernel32.dll:LoadLibraryA(psapi.dll));
+	kernel32.dll:GetProcAddress(ret_value, EnumProcesses));
+	g_var_12580 = ret_value;
+	if(g_var_12580 == 0) {
+	     goto 00001419;
+	}else{
+	     if(g_var_12584 == 0) {
+	          goto 00001419;
+	     }else{
+	          if(g_var_12588 != 0) {
+	               goto 00001423;
+	          }else{
+	          }
+	     }
+00001419:
+	     goto 00001598;
+	}
+00001423:
+	DWORD PTR DS:[403124]()
+	if(var_4644 != 0) {
+	     goto 0000144A;
+	}else{
+	     goto 00001598;
+	}
+0000144A:
+	var_4648 = var_4648 >> 2;
+	var_5212 = var_4648;
+	int var_4664 = 0
+	goto 00001474;
+00001465:
+	var_4664 = var_4664 + 1;
+	var_4664 = var_4664;
+00001474:
+	var_5212 = var_5212 + 1;
+	if(var_4664 >= ECX) {
+	     goto 000014D1;
+	}else{
+	     if(var_EDX*4-36 == 0) {
+	          goto 000014CF;
+	     }else{
+	          Function0(var_-4644)
+	          var_276 = var_4664;
+	          if(var_276 == 0) {
+	               goto 000014CF;
+	          }else{
+	               var_4660 = var_-4644;
+	               goto 000014D1;
+	          }
+	     }
+000014CF:
+	     goto 00001465;
+	}
+000014D1:
+	if(var_4660 != 0) {
+	     goto 000014E4;
+	}else{
+	     goto 00001598;
+	}
+000014E4:
+	Function2(var_4660)
+	var_4656 = 1;
+	if(var_4656 == 0) {
+	     goto 00001593;
+	}else{
+	     kernel32.dll:GetWindowsDirectoryA(1, 10E);
+	     msvcrt.dll:_snprintf(0, 10E, %s%s));
+	     kernel32.dll:GetTempPathA(10E, 1);
+	     msvcrt.dll:_snprintf(0, 10E, %s%s));
+	     kernel32.dll:MoveFileA(0, 1);
+	     Function3()
+	     goto 00001598;
+	}
+00001593:
+00001598:
+	return
+}
+
+Function_4_1(){
+000015A0 :
+	if(1 < 4096) {
+	     goto 000015C0;
+	}else{
+	}
+000015AC:
+	var_4660 = var_4660 - 4096;
+	arg_8 = arg_8 - 4096;
+	if(arg_8 >= 4096) {
+	     goto 000015AC;
+	}else{
+	}
+000015C0:
+	var_4660 = var_4660 - -4096;
+	return
+}

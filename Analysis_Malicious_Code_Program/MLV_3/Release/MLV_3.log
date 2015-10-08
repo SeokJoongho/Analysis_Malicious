@@ -1,0 +1,262 @@
+﻿빌드 시작: 2015-10-04 오전 12:24:27
+     1>2 노드의 "C:\Users\eternal\Desktop\MLV_3-8 (3)\MLV_3\MLV_3.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "Release\MLV_3.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\MLV_3.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt analysis.cpp convert.cpp convertDialog.cpp MLV_3Dlg.cpp
+         analysis.cpp
+     1>analysis.cpp(1): warning C4627: '#include "analysis.h"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+                 'StdAfx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+     1>analysis.cpp(35039): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "StdAfx.h"'을(를) 소스에 추가하시겠습니까?
+         convert.cpp
+     1>convert.cpp(1): warning C4627: '#include "convert.h"': 미리 컴파일된 헤더 사용을 찾을 때 건너뛰었습니다.
+                 'StdAfx.h'에 지시문 추가 또는 미리 컴파일된 헤더 다시 빌드
+     1>convert.cpp(4372): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "StdAfx.h"'을(를) 소스에 추가하시겠습니까?
+         convertDialog.cpp
+     1>convertDialog.cpp(77): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>convertDialog.cpp(81): error C2664: 'CWnd::MessageBoxW' : 매개 변수 1을(를) 'const char [7]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+         MLV_3Dlg.cpp
+     1>MLV_3Dlg.cpp(130): error C2664: 'CWnd::SetDlgItemTextW' : 매개 변수 2을(를) 'const char [42]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(131): error C2664: 'CWnd::SetDlgItemTextW' : 매개 변수 2을(를) 'const char [28]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(195): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [15]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(196): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [22]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(197): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [12]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(198): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [19]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(200): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(201): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [16]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(202): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [13]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(203): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [9]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(205): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [9]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(206): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [14]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(212): error C2664: 'BOOL CToolTipCtrl::AddTool(CWnd *,UINT,LPCRECT,UINT_PTR)' : 매개 변수 2을(를) 'const char [44]'에서 'UINT'(으)로 변환할 수 없습니다.
+                 이 변환이 가능한 컨텍스트가 없습니다.
+     1>MLV_3Dlg.cpp(213): error C2664: 'BOOL CToolTipCtrl::AddTool(CWnd *,UINT,LPCRECT,UINT_PTR)' : 매개 변수 2을(를) 'const char [21]'에서 'UINT'(으)로 변환할 수 없습니다.
+                 이 변환이 가능한 컨텍스트가 없습니다.
+     1>MLV_3Dlg.cpp(214): error C2664: 'BOOL CToolTipCtrl::AddTool(CWnd *,UINT,LPCRECT,UINT_PTR)' : 매개 변수 2을(를) 'const char [48]'에서 'UINT'(으)로 변환할 수 없습니다.
+                 이 변환이 가능한 컨텍스트가 없습니다.
+     1>MLV_3Dlg.cpp(257): error C2664: 'CWnd::MessageBoxW' : 매개 변수 1을(를) 'const char [7]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(544): error C2664: 'HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,HTREEITEM,HTREEITEM)' : 매개 변수 1을(를) 'char *'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(545): error C2664: 'HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,HTREEITEM,HTREEITEM)' : 매개 변수 1을(를) 'const char [17]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(546): error C2664: 'HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,HTREEITEM,HTREEITEM)' : 매개 변수 1을(를) 'const char [20]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(547): error C2664: 'HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,HTREEITEM,HTREEITEM)' : 매개 변수 1을(를) 'const char [17]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(549): error C2664: 'HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,HTREEITEM,HTREEITEM)' : 매개 변수 1을(를) 'const char [10]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(550): error C2664: 'HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,HTREEITEM,HTREEITEM)' : 매개 변수 1을(를) 'const char [18]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(551): error C2664: 'HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,HTREEITEM,HTREEITEM)' : 매개 변수 1을(를) 'const char [22]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(557): error C2664: 'HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,HTREEITEM,HTREEITEM)' : 매개 변수 1을(를) 'char [1024]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(564): error C2664: 'HTREEITEM CTreeCtrl::InsertItem(LPCTSTR,HTREEITEM,HTREEITEM)' : 매개 변수 1을(를) 'char [1024]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(618): error C2065: 'LheaderInfo' : 선언되지 않은 식별자입니다.
+     1>MLV_3Dlg.cpp(619): error C2664: 'CListCtrl::SetItemText' : 매개 변수 3을(를) 'char *'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(620): error C2664: 'CListCtrl::SetItemText' : 매개 변수 3을(를) 'char *'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(621): error C2664: 'CListCtrl::SetItemText' : 매개 변수 3을(를) 'char *'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(628): error C2065: 'LsectionInfo' : 선언되지 않은 식별자입니다.
+     1>MLV_3Dlg.cpp(629): error C2664: 'CListCtrl::SetItemText' : 매개 변수 3을(를) 'char *'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(630): error C2664: 'CListCtrl::SetItemText' : 매개 변수 3을(를) 'char *'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(631): error C2664: 'CListCtrl::SetItemText' : 매개 변수 3을(를) 'char *'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(640): error C2065: 'Lptr' : 선언되지 않은 식별자입니다.
+     1>MLV_3Dlg.cpp(642): error C2664: 'CListCtrl::SetItemText' : 매개 변수 3을(를) 'char *'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(698): error C2664: 'int ATL::CStringT<BaseType,StringTraits>::Replace(wchar_t,wchar_t)' : 매개 변수 1을(를) 'const char [2]'에서 'wchar_t'(으)로 변환할 수 없습니다.
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 이 변환이 가능한 컨텍스트가 없습니다.
+     1>MLV_3Dlg.cpp(699): error C2664: 'int ATL::CStringT<BaseType,StringTraits>::Replace(wchar_t,wchar_t)' : 매개 변수 1을(를) 'const char [2]'에서 'wchar_t'(으)로 변환할 수 없습니다.
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 이 변환이 가능한 컨텍스트가 없습니다.
+     1>MLV_3Dlg.cpp(806): error C2664: 'int CWnd::GetDlgItemTextW(int,LPTSTR,int) const' : 매개 변수 2을(를) 'char [1024]'에서 'LPTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(815): error C2664: 'CWnd::MessageBoxW' : 매개 변수 1을(를) 'const char [19]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(820): error C2664: 'CWnd::MessageBoxW' : 매개 변수 1을(를) 'const char [16]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(825): error C2664: 'CWnd::MessageBoxW' : 매개 변수 1을(를) 'const char [40]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(830): error C2664: 'CWnd::MessageBoxW' : 매개 변수 1을(를) 'const char [43]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(856): error C2664: 'CListCtrl::SetItemText' : 매개 변수 3을(를) 'char [512]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(859): error C2664: 'CListCtrl::SetItemText' : 매개 변수 3을(를) 'char [1024]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(864): error C2664: 'CListCtrl::SetItemText' : 매개 변수 3을(를) 'char [1024]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(868): error C2065: 'Lcvt' : 선언되지 않은 식별자입니다.
+     1>MLV_3Dlg.cpp(868): error C2228: '.getSectionName' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+                 ''unknown-type'' 형식입니다.
+     1>MLV_3Dlg.cpp(871): error C2664: 'CListCtrl::SetItemText' : 매개 변수 3을(를) 'char [1024]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(874): error C2664: 'CListCtrl::SetItemText' : 매개 변수 3을(를) 'char [1024]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(877): error C2664: 'CListCtrl::SetItemText' : 매개 변수 3을(를) 'char [1024]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(883): error C2065: 'Lcvt' : 선언되지 않은 식별자입니다.
+     1>MLV_3Dlg.cpp(883): error C2228: '.getDllName' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+                 ''unknown-type'' 형식입니다.
+     1>MLV_3Dlg.cpp(884): error C2664: 'CListCtrl::SetItemText' : 매개 변수 3을(를) 'char *'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(893): error C2664: 'CWnd::MessageBoxW' : 매개 변수 1을(를) 'const char [35]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(898): error C2664: 'CWnd::MessageBoxW' : 매개 변수 1을(를) 'const char [30]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1064): error C2664: 'CWnd::MessageBoxW' : 매개 변수 1을(를) 'const char [7]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1110): error C2664: 'CWnd::MessageBoxW' : 매개 변수 1을(를) 'const char [7]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1168): error C2664: 'CWnd::MessageBoxW' : 매개 변수 1을(를) 'const char [7]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1289): error C2664: 'ATL::CStringT<BaseType,StringTraits>::Compare' : 매개 변수 1을(를) 'char *'에서 'const wchar_t *'(으)로 변환할 수 없습니다.
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1300): error C2664: 'ATL::CStringT<BaseType,StringTraits>::Compare' : 매개 변수 1을(를) 'const char [17]'에서 'const wchar_t *'(으)로 변환할 수 없습니다.
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1314): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [7]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1315): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1316): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [6]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1317): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1318): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1319): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [12]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1324): error C2664: 'ATL::CStringT<BaseType,StringTraits>::Compare' : 매개 변수 1을(를) 'const char [20]'에서 'const wchar_t *'(으)로 변환할 수 없습니다.
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1336): error C2664: 'ATL::CStringT<BaseType,StringTraits>::Compare' : 매개 변수 1을(를) 'const char [17]'에서 'const wchar_t *'(으)로 변환할 수 없습니다.
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1347): error C2664: 'ATL::CStringT<BaseType,StringTraits>::Compare' : 매개 변수 1을(를) 'const char [10]'에서 'const wchar_t *'(으)로 변환할 수 없습니다.
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1361): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [7]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1362): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1363): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1364): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1365): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [12]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1370): error C2664: 'ATL::CStringT<BaseType,StringTraits>::Compare' : 매개 변수 1을(를) 'const char [18]'에서 'const wchar_t *'(으)로 변환할 수 없습니다.
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1384): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [7]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1385): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1386): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1387): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1388): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [12]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1393): error C2664: 'ATL::CStringT<BaseType,StringTraits>::Compare' : 매개 변수 1을(를) 'const char [22]'에서 'const wchar_t *'(으)로 변환할 수 없습니다.
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1407): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [7]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1408): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1409): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1410): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1411): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [12]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1423): error C2664: 'ATL::CStringT<BaseType,StringTraits>::Compare' : 매개 변수 1을(를) 'char [512]'에서 'const wchar_t *'(으)로 변환할 수 없습니다.
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1436): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [7]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1437): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1438): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1439): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [5]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1440): error C2664: 'int CListCtrl::InsertColumn(int,LPCTSTR,int,int,int)' : 매개 변수 2을(를) 'const char [12]'에서 'LPCTSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>MLV_3Dlg.cpp(1449): error C2664: 'ATL::CStringT<BaseType,StringTraits>::Compare' : 매개 변수 1을(를) 'char [512]'에서 'const wchar_t *'(으)로 변환할 수 없습니다.
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>"C:\Users\eternal\Desktop\MLV_3-8 (3)\MLV_3\MLV_3.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:01.69

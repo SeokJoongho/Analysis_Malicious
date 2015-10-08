@@ -1,0 +1,24 @@
+Function_1(){
+	kernel32.dll:GetCurrentProcess()
+	advapi32.dll:OpenProcessToken(0, 28, 0);
+	if(ret_value != 0) {
+	     goto 00001120;
+	}else{
+	     goto 0000116E;
+	}
+00001120:
+	int var_16 = 1
+	int var_4 = 2
+	advapi32.dll:LookupPrivilegeValueA(0, arg_8, var_284);
+	if(ret_value != 0) {
+	     goto 00001153;
+	}else{
+	     kernel32.dll:CloseHandle(0);
+	     goto 0000116E;
+	}
+00001153:
+	advapi32.dll:AdjustTokenPrivileges(0, 0, var_284, 0, 0, 0);
+	var_20 = ret_value;
+0000116E:
+	return
+}

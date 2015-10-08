@@ -1,0 +1,26 @@
+Function_2(){
+	int var_4 = 0
+	int var_8 = 0
+	int var_12 = 0
+	Function1(SeDebugPrivilege))
+	if(0 == 0) {
+	     goto 000011A1;
+	}else{
+	     goto 000011F8;
+	}
+000011A1:
+	kernel32.dll:LoadLibraryA(sfc_os.dll));
+	kernel32.dll:GetProcAddress(ret_value, 2);
+	g_var_12576 = ret_value;
+	kernel32.dll:OpenProcess(1F0FFF, 0, arg_8);
+	var_8 = ret_value;
+	if(var_8 != 0) {
+	     goto 000011D8;
+	}else{
+	     goto 000011F8;
+	}
+000011D8:
+	kernel32.dll:CreateRemoteThread(0, 0, 0, 0, 0, 0, 0);
+000011F8:
+	return
+}

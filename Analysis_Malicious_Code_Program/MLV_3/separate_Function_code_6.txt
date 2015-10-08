@@ -1,0 +1,77 @@
+Function_6(){
+	switch(){
+	case 1 :
+	     goto 000081BB;
+	}
+	if(arg_12 == 10000) {
+	     goto 00029F21;
+	}else{
+	     DWORD PTR DS:[10013C8] ()()
+	     if(g_var_4 == 0) {
+	          goto 0005C620;
+	     }else{
+	          DWORD PTR DS:[EAX]()
+	          DWORD PTR DS:[EAX+8]()
+	          arg_20 = g_var_UNKNOWN;
+	          if(arg_12 == 130) {
+	               goto 0005C60D;
+	          }else{
+	               DWORD PTR DS:[EAX+4]()
+	               return
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION3(MOVS)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               arg_20 = 0;
+	               switch(){
+	               case 1 :
+	                    goto 0000C240;
+	               }
+	               UNKNOWN OPERATION3(IN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               arg_20 = arg_20 + 1;
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               arg_20 = arg_20 + 1;
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               UNKNOWN OPERATION1(UNKNOWN)
+	               switch(){
+	               case 1 :
+	                    goto 0000C258;
+	               }
+	          }
+	     }
+	}
+	return
+}

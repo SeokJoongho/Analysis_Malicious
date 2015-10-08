@@ -1,0 +1,19 @@
+Function_26(){
+	DWORD PTR DS:[1001138] ()()
+	if(g_var_4 == 0) {
+	     goto 00015133;
+	}else{
+	     switch(){
+	     case 1 :
+	          goto 0000C25D;
+	     }
+	     UNKNOWN OPERATION1(UNKNOWN)
+	     UNKNOWN OPERATION3(AND)
+	     UNKNOWN OPERATION1(UNKNOWN)
+	     int arg_1820594166 = -6
+	     UNKNOWN OPERATION1(UNKNOWN)
+	     DWORD PTR DS:[EAX+12]()
+	     goto 00001DE6;
+	}
+	return
+}

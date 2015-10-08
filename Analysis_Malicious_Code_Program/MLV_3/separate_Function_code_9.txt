@@ -1,0 +1,38 @@
+Function_9(){
+	if(g_var_96 != 0) {
+	     goto 0005CFEA;
+	}else{
+	     return
+	     goto 00001808;
+	     if( == ) {
+	          goto 000092AC;
+	     }else{
+	          if(0 <= 17) {
+	               goto 0000CDF8;
+	          }else{
+	               if( != ) {
+	                    goto 0000D035;
+	               }else{
+	                    UNKNOWN OPERATION1(UNKNOWN)
+	                    switch(){
+	                    case 1 :
+	                         goto 00000D14;
+	                    }
+	                    if( == ) {
+	                         goto 000017F8;
+	                    }else{
+	                         UNKNOWN OPERATION1(UNKNOWN)
+	                         UNKNOWN OPERATION3(SUB)
+	                         UNKNOWN OPERATION1(UNKNOWN)
+	                         UNKNOWN OPERATION3(PUSHAD)
+	                         UNKNOWN OPERATION1(UNKNOWN)
+	                         var_88 = 0;
+	                         var_88++;
+	                         goto 00001808;
+	                    }
+	               }
+	          }
+	     }
+	}
+	return
+}
